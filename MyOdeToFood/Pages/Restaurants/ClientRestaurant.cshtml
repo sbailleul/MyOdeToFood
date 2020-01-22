@@ -1,0 +1,37 @@
+﻿@page
+@model MyOdeToFood.Pages.Restaurants.ClientRestaurantModel
+
+@{
+}
+
+<table class="table" id="restaurants"></table>
+
+@section Scripts
+{
+    <environment exclude="Development">
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.20/datatables.min.css"/>
+        <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.20/datatables.min.js"></script>
+    </environment>
+    <environment include="Development">
+        <script src="~/node_modules/datatables.net/js/jquery.dataTables.min.js"></script>
+        <script src="~/node_modules/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+        <link href="~/node_modules/datatables.net-bs/css/dataTables.bootstrap.min.css"/>
+    </environment>     
+
+    <script>
+        $(function(){
+            const cuisines = ["None", "Mexican", "Italian", "Indian"];
+            $.ajax("/api/restaurants/", {method: "get"}).
+            then((response) => {
+                $("#restaurants").dataTable({
+                data: response,
+                columns:[
+                    {"data" : "name"},
+                    {"data" : "location"},
+                    {"data" : "cuisine", "render": data => cuisines[data]}                    
+                ]
+                })
+            });
+        });
+    </script>
+}

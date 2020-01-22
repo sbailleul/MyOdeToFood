@@ -1,0 +1,13 @@
+C:\Users\sbailleu\Documents\Entrainement\3. C#\1. ASP .Net Core\MyOdeToFood\MyOdeToFood.Data\bin\Debug\netcoreapp3.1\MyOdeToFood.Data.deps.json
+C:\Users\sbailleu\Documents\Entrainement\3. C#\1. ASP .Net Core\MyOdeToFood\MyOdeToFood.Data\bin\Debug\netcoreapp3.1\MyOdeToFood.Data.dll
+C:\Users\sbailleu\Documents\Entrainement\3. C#\1. ASP .Net Core\MyOdeToFood\MyOdeToFood.Data\bin\Debug\netcoreapp3.1\MyOdeToFood.Data.pdb
+C:\Users\sbailleu\Documents\Entrainement\3. C#\1. ASP .Net Core\MyOdeToFood\MyOdeToFood.Data\bin\Debug\netcoreapp3.1\MyOdeToFood.Core.dll
+C:\Users\sbailleu\Documents\Entrainement\3. C#\1. ASP .Net Core\MyOdeToFood\MyOdeToFood.Data\bin\Debug\netcoreapp3.1\MyOdeToFood.Core.pdb
+C:\Users\sbailleu\Documents\Entrainement\3. C#\1. ASP .Net Core\MyOdeToFood\MyOdeToFood.Data\obj\Debug\netcoreapp3.1\MyOdeToFood.Data.csprojAssemblyReference.cache
+C:\Users\sbailleu\Documents\Entrainement\3. C#\1. ASP .Net Core\MyOdeToFood\MyOdeToFood.Data\obj\Debug\netcoreapp3.1\MyOdeToFood.Data.AssemblyInfoInputs.cache
+C:\Users\sbailleu\Documents\Entrainement\3. C#\1. ASP .Net Core\MyOdeToFood\MyOdeToFood.Data\obj\Debug\netcoreapp3.1\MyOdeToFood.Data.AssemblyInfo.cs
+C:\Users\sbailleu\Documents\Entrainement\3. C#\1. ASP .Net Core\MyOdeToFood\MyOdeToFood.Data\obj\Debug\netcoreapp3.1\MyOdeToFood.Data.csproj.CopyComplete
+C:\Users\sbailleu\Documents\Entrainement\3. C#\1. ASP .Net Core\MyOdeToFood\MyOdeToFood.Data\obj\Debug\netcoreapp3.1\MyOdeToFood.Data.dll
+C:\Users\sbailleu\Documents\Entrainement\3. C#\1. ASP .Net Core\MyOdeToFood\MyOdeToFood.Data\obj\Debug\netcoreapp3.1\MyOdeToFood.Data.pdb
+C:\Users\sbailleu\Documents\Entrainement\3. C#\1. ASP .Net Core\MyOdeToFood\MyOdeToFood.Data\bin\Debug\netcoreapp3.1\MyOdeToFood.Data.runtimeconfig.json
+C:\Users\sbailleu\Documents\Entrainement\3. C#\1. ASP .Net Core\MyOdeToFood\MyOdeToFood.Data\bin\Debug\netcoreapp3.1\MyOdeToFood.Data.runtimeconfig.dev.json

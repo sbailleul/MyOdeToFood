@@ -1,0 +1,22 @@
+﻿@page "{restaurantId:int}"
+@model MyOdeToFood.Pages.Restaurants.DetailModel
+
+@{
+}
+
+<h2>@Model.Restaurant.Name</h2>
+<div>
+    @nameof(Model.Restaurant.Id) : @Model.Restaurant.Id
+</div>
+<div>
+    @nameof(Model.Restaurant.Location) : @Model.Restaurant.Location
+</div>
+<div>
+    @nameof(Model.Restaurant.Cuisine) : @Model.Restaurant.Cuisine
+</div>
+
+@if (Model.Message != null)
+{
+    <div class="alert alert-info">@Model.Message</div>
+}
+<a asp-page="./List">All restaurants</a>

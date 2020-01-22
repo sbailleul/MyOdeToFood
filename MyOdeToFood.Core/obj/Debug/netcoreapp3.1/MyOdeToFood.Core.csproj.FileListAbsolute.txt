@@ -1,0 +1,8 @@
+C:\Users\sbailleu\Documents\Entrainement\3. C#\1. ASP .Net Core\MyOdeToFood\MyOdeToFood.Core\bin\Debug\netcoreapp3.1\MyOdeToFood.Core.deps.json
+C:\Users\sbailleu\Documents\Entrainement\3. C#\1. ASP .Net Core\MyOdeToFood\MyOdeToFood.Core\bin\Debug\netcoreapp3.1\MyOdeToFood.Core.dll
+C:\Users\sbailleu\Documents\Entrainement\3. C#\1. ASP .Net Core\MyOdeToFood\MyOdeToFood.Core\bin\Debug\netcoreapp3.1\MyOdeToFood.Core.pdb
+C:\Users\sbailleu\Documents\Entrainement\3. C#\1. ASP .Net Core\MyOdeToFood\MyOdeToFood.Core\obj\Debug\netcoreapp3.1\MyOdeToFood.Core.csprojAssemblyReference.cache
+C:\Users\sbailleu\Documents\Entrainement\3. C#\1. ASP .Net Core\MyOdeToFood\MyOdeToFood.Core\obj\Debug\netcoreapp3.1\MyOdeToFood.Core.AssemblyInfoInputs.cache
+C:\Users\sbailleu\Documents\Entrainement\3. C#\1. ASP .Net Core\MyOdeToFood\MyOdeToFood.Core\obj\Debug\netcoreapp3.1\MyOdeToFood.Core.AssemblyInfo.cs
+C:\Users\sbailleu\Documents\Entrainement\3. C#\1. ASP .Net Core\MyOdeToFood\MyOdeToFood.Core\obj\Debug\netcoreapp3.1\MyOdeToFood.Core.dll
+C:\Users\sbailleu\Documents\Entrainement\3. C#\1. ASP .Net Core\MyOdeToFood\MyOdeToFood.Core\obj\Debug\netcoreapp3.1\MyOdeToFood.Core.pdb

@@ -1,0 +1,17 @@
+﻿Avoir info sur le dbcontext de Data en spécifiant le startup dans MyOdeToFoof : 
+dotnet-ef dbcontext info -s ../MyOdeToFood
+
+Créer une migration en spécifiant le startup dans MyOdeToFood : 
+dotnet-ef migrations add initiale_create -s ../MyOdeToFood
+
+Applique la migration courante à la base de donnée spécifié dans Startup : 
+dotnet-ef database update -s ../MyOdeToFood
+
+Publie le projet courant dans un répertoire de sortie : 
+dotnet publish -o [dir]
+
+Exécute le projet publié en utilisant la dll contenant le entry point : 
+dotnet MyOdeToFood.dll
+
+Publie le projet courant dans un répertoire de sortie autonome en spécifiant que le runtime cible : 
+dotnet publish -o [dir] --self-contained -r [execution environment : win-x64]

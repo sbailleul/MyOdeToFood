@@ -1,0 +1,54 @@
+﻿@page
+@using MyOdeToFood.Core
+@model MyOdeToFood.Pages.Restaurants.ListModel
+
+@{
+}
+
+<form method="get">
+    <div class="form-group">
+        <input class="form-control" asp-for="SearchTerm"/>
+        <span class="input-group-btn">
+            <button class="btn btn-default">
+                <i class="glyphicon glyphicon-search"></i>
+            </button>
+        </span>
+    </div>
+</form>
+
+@Model.Message
+@foreach (var restaurant in Model.Restaurants)
+{
+    <partial name="_Summary" model="restaurant"/>
+} 
+@* <table class="table"> *@
+@*     <thead> *@
+@*     <td>@nameof(Restaurant.Id)</td> *@
+@*     <td>@nameof(Restaurant.Name)</td> *@
+@*     <td>@nameof(Restaurant.Cuisine)</td> *@
+@*     <td>@nameof(Restaurant.Location)</td> *@
+@*     </thead> *@
+@*     @foreach (var restaurant in Model.Restaurants) *@
+@*     { *@
+@*         <tr> *@
+@*             <td>@restaurant.Id</td> *@
+@*             <td>@restaurant.Name</td> *@
+@*             <td>@restaurant.Cuisine</td> *@
+@*             <td>@restaurant.Location</td> *@
+@*             <td> *@
+@*                 <a class="btn btn-lg" asp-page="./Detail" asp-route-restaurantId="@restaurant.Id"> *@
+@*                     <i class="glyphicon glyphicon-zoom-in"></i> *@
+@*                 </a> *@
+@*                 <a class="btn btn-lg" asp-page="./Edit" asp-route-restaurantId="@restaurant.Id"> *@
+@*                     <i class="glyphicon glyphicon-edit"></i> *@
+@*                 </a> *@
+@*                 <a class="btn btn-lg " asp-page="./Delete" asp-route-restaurantId="@restaurant.Id"> *@
+@*                     <i class="glyphicon glyphicon-remove"></i> *@
+@*                 </a> *@
+@*             </td> *@
+@*         </tr> *@
+@*     } *@
+@* </table> *@
+@* @section footer{ *@
+    <a class="btn btn-primary" asp-page="./Edit">Create restaurant</a>
+@* } *@
